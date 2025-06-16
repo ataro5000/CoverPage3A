@@ -88,16 +88,15 @@ li a:hover {
 }
 
 footer {
+    position: fixed;
     text-align: center;
-    padding: 2rem 1rem;
+    flex: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: #333;
     color: #f4f7f6;
     margin-top: 3rem;
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.9rem;
 }
 
 /* Responsive adjustments */
